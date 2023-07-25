@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS</title>
+    <style>
+        body{
+            background: gray;
+            border: 3px solid black;
+            border-radius: 10px;
+            width: 98%;
+            height: 470px;
+        }
+       h2{
+        width: 130px;
+        border: 2px solid red;
+        background-color: rgb(43, 112, 112);
+       }
+       p{
+        color: aqua;
+       }
+       .container{
+        color: blueviolet;
+        border: 2px solid red;
+        width: 40px;
+        background-color: bisque;
+       }
+       li{
+        /* border: 3px solid black; */
+        /* width: 90px; */
+        color: red;
+       }
+       #x{
+        color: cadetblue;
+        background-color: greenyellow;
+        width: 50px;
+       }
+       .x{
+        color: aqua;
+       }
+       .y{
+        color: blueviolet;
+        border: 2px solid black;
+        background-color: burlywood;
+        width: 266px;
+       }
+    </style>
+</head>
+<body>
+      <h2>Internal Css</h2>
+      <ul>
+        <li class="container">Home</li>
+        <li>About</li>
+        <li>Contact Us</li>
+        <ul>
+            <li id="x">Home</li>
+            <li class="x">About</li>
+            <li class="x">Contact Us</li>
+        </li>
+      </ul>
+      <p class="y">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, impedit?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, voluptatem.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, voluptatem.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, voluptatem.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, voluptatem.</p>
+</body>
+</html>

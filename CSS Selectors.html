@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTORS</title>
+    <style>
+        /* Element selectors */
+        p{
+          color: rgb(10, 241, 49);
+        }
+        
+        /* Class Selectors */
+        .first{
+            color: brown;
+            font-size: 30px;
+        }
+        .second{
+            border: 2px solid black;
+            width: 180px;
+            background-color: blueviolet;
+        }
+
+        /* ID Selectors */
+        #secondpara{
+            font-size: 50px;
+            font-family: cursive;
+        }
+
+        /* Grouping Selector */
+        footer, span{
+            background-color: palevioletred;
+            width: 180px;
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>    
+       NOTES = Css selectors are used to target HTML elements.
+               There is Four types of CSS Selectors :-
+               1. Element Selectors : 
+               2. Class Selectors : if we want to select a paragraph and assign multiple properties to it, then we can use Class Selectors.
+               3. Id Selectors : If we want to select only paragraph to show any changes , then we will be using ID selectors.
+               4. Grouping Selectors : Grouping Selectors is used when we want to make changes in more then one element. 
+    <h2>Css Selectors</h2>
+    <p id="firstpara" class="first">This is a first para</p>
+    <p class="second">This is a second para</p>
+    <div>
+        <p id="secondpara">This is a another paragraaph</p>
+        <span>this is a span</span>
+    </div>
+    <footer>This is a footer</footer>
+</body>
+</html>

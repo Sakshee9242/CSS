@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multicolor Bg</title>
+    <style>
+        Header{
+            width: 50%;
+            height: 100px;
+            /* background: rebeccapurple; */
+            background: linear-gradient(red ,blue, black, white);
+            background: linear-gradient(to top,red ,blue, black, white);
+            background: linear-gradient(to bottom,red ,blue, black, white);
+            background: linear-gradient(to right,red ,blue, black, white);
+            background: linear-gradient(to left,red ,blue, black, white);
+            background: linear-gradient(45%red ,50%blue, 20%black, 10%white);
+            background: linear-gradient(45deg,red ,blue, black, white);
+            background: linear-gradient(-45deg,red ,blue, black, white);
+        }
+        span,div{
+            background: radial-gradient(red,green 34%,white,black,yellow,pink,magenta);
+            width: 50%;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+      <Header>This is a Header</Header>
+      <br>
+      <span>This is Span</span>
+      <br>
+      <div>This is div</div>
+      <br>
+      <footer>This is footer</footer>
+      <br>
+      <nav>This is navbar</nav>
+
+</body>
+</html>

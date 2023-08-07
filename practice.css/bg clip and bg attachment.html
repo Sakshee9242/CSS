@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bg image and bg attachment</title>
+    <style>
+         h2{
+            font-size: 40px;
+            background: linear-gradient(rgb(46, 3, 240),rgb(10, 247, 2));
+            color: transparent;
+            -webkit-background-clip: text;
+            /* -moz-background-clip: text; */
+            /* -o-background-clip: text; */
+         }
+         h3{
+            font-size: 50px;
+            color: transparent;
+            background: url(images.jpeg);
+            -webkit-background-clip: text;
+            background-size: 100% 100%;
+            background-size: cover;
+            background-size: contain;
+            background-position: center;
+            background-attachment: fixed;
+         }
+         div{
+            font-weight: bolder;
+            border: 15px groove red;
+            border-radius: 50px;
+            background: linear-gradient(lightblue, red);
+            width: 50%;
+            height: 100px;
+            margin: auto;
+            font-size: 60px;
+            text-align: center;
+            color: transparent;
+            -webkit-background-clip: text;
+            box-sizing: border-box;
+         }
+    </style>
+</head>
+<body>
+    <div>
+        HARE
+    </div>
+    <h2>
+        KRISHNA
+    </h2>
+    <h3>
+        SAKSHEE
+    </h3>
+    
+     <img src="images.jpeg" alt="" width="50%" height="300vh">
+</body>
+</html>

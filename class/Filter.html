@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .blur 
+        {
+            filter: blur(2px);
+        }
+        .bright 
+        {
+            filter: brightness(150%);
+        }
+
+        .contrast 
+        {
+            filter: contrast(150%);
+        }
+        .BW 
+        {
+            filter: grayscale(100%);
+        }
+        .saturate 
+        {
+            filter: saturate(250%);
+        }
+        .neg 
+        {
+            filter:invert(100%)
+        }
+        .hue 
+        {
+            filter: hue-rotate(-45deg);
+        }
+        .pataNai 
+        {
+            /* filter: drop-shadow(9px 9px 6px red); */
+            box-shadow: 9px 9px 6px red;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="download.jfif">
+    <img src="download.jfif" class="blur">
+    <img src="download.jfif" class="bright">
+    <img src="download.jfif" class="contrast">
+    <img src="download.jfif" class="BW">
+    <img src="download.jfif" class="saturate">
+    <img src="download.jfif" class="neg">
+    <img src="download.jfif" class="hue">
+    <img src="download.jfif" class="pataNai">
+    
+</body>
+</html>

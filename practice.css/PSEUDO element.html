@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo element</title>
+    <style>
+          h1::first-letter{
+            color: cadetblue;
+          }
+          p::first-line{
+        background-color: #ec3333;
+          }
+          h2{
+            font-size: 30px;
+          }
+          h2::before{
+            content: "sakshee  ";
+          }
+          h2::after{
+            content: "  Dinesh";
+          }
+          h2:hover{
+            color: #ec3333;
+          }
+          h3{
+            font-size: 30px;
+          }
+          h3::before{
+            content: "\26F2";
+          }
+          h3::after{
+            content: url(https://logo.com/image-cdn/images/kts928pd/production/493f14b5fafbe48bb6017c50c391d82179016d3c-1000x1000.png?w=1080&q=72);
+            height: 200px;
+            width: 200px;
+          }
+          ::selection{
+            color: #ec3333;
+            background-color: cadetblue;
+          }
+    </style>
+</head>
+<body>
+      <h2>Charvi</h2>
+
+      <h3>Dhruval</h3>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem consequatur beatae nisi non fugiat, nam voluptas, aliquam id ipsum quaerat laborum minus facilis vero deleniti rerum quas. Beatae, architecto necessitatibus.
+      </p>
+
+      <h1>HELLO</h1>
+      <h1>HELLO</h1>
+      <h1>HELLO</h1>
+</body>
+</html>

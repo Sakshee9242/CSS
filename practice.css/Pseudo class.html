@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors</title>
+    <style>
+        h1:first-child{
+            color: brown;
+            background-color: blue;
+        }
+        h1:nth-child(2){
+            color: blueviolet;
+            background-color: black;
+        }
+        /* h1:nth-child(3){
+            color: cadetblue;
+            background-color: rosybrown;
+        } */
+        h1:last-child{
+            color: red;
+            background-color: blue;
+        }
+        .x:nth-child(2), .x:nth-child(3){
+            color: darkorange;
+            background-color: black;
+        }
+        input{
+            width: 200px;
+            height: 60px;
+            margin: 50px;
+            color: green;
+            background-color: red;
+            border: none;
+            border-bottom: 10px solid green;
+        }
+        input:hover{
+            background-color: cadetblue;
+        }
+        input:focus{
+            outline: none;
+            background-color: coral;
+            padding: 20px;
+        }
+        a:hover{
+            color: aqua;
+        }
+        a:link{
+            color: red;
+        }
+         a:visited{
+          color: green;
+         }
+         a:active{
+            color: yellow;
+        }
+        
+    </style>
+</head>
+<body>
+    <a href="google">google</a>
+    <input type="text" placeholder="enter your name">
+    <div>
+    <h1 class="x">World</h1>
+    <h1 class="x">World</h1>
+    <h1 id="d">World</h1>
+    <h1 class="x">World</h1>
+</div>
+</body>
+</html>

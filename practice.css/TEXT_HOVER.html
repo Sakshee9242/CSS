@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test-hover</title>
+    <style>
+        b{
+            background: linear-gradient(lightblue,coral);
+        }
+        span{
+            display: none;
+            background: linear-gradient(lightblue,coral);
+             width: 50px;
+        }
+        b:hover span{
+            display: block;
+        }
+        ul:hover{
+            color: red;
+            background: black;
+        }
+        ul:hover li{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        unorderd list
+        <li>This is list</li>
+    </ul>
+    <b>
+        HELLO
+        <span>World</span>
+    </b>
+</body>
+</html>

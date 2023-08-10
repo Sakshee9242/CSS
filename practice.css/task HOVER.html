@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Hover</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .bg{
+            height: 300px;
+            width: 500px;
+            background: url(https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom2.jpg);
+            background-size: cover;
+            margin: 200px auto;
+            border: 5px solid black;
+            padding: 50px;
+            background-position: -50px 0;
+            transition: .5s;
+            
+        }
+        .bg:hover{
+            background-position: 0px 0px;
+        }
+        .text{
+            height: 200px;
+            width: 400px;
+            padding: 110px 0 0 160px;
+            color: #fff;
+            word-spacing: 15px;
+            letter-spacing: 10px;
+            border: 10px solid #fff;
+            opacity: 0;
+            /* visibility: hidden; */
+            /* display: none; */
+            transition: .5s;
+            justify-content: center;
+            align-items: center;
+            /* margin: 30px 0 0 -30px; */
+
+        }
+        .bg:hover .text{
+            opacity: 1;
+            /* visibility: visible; */
+            /* display: block; */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <div class="text">
+            New Arrivals
+        </div>
+    </div>
+</body>
+</html>

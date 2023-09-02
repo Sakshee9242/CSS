@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{box-sizing: border-box;}
+
+              
+       .x 
+       {
+        height: 150px;
+        width: 150px;
+        /* background: #000; */
+        margin: 150px auto;
+        padding: 25px;
+        border: 10px solid transparent;
+        border-top:10px solid red;
+        animation: x .5s linear infinite ;
+       
+        border-radius: 50%;
+    }
+
+       .y 
+       {
+        height: 100px;
+        width: 100px;
+        /* background:blue; */
+        padding: 25px;
+        border-radius: 50%;
+       
+        border: 10px solid transparent;
+        border-top:10px solid yellow;
+        animation: x 1.9s linear infinite;
+       }
+
+       .z
+       {
+        height: 50px;
+        width: 50px;
+        /* background: green; */
+        border-radius: 50%;
+        border: 10px solid transparent;
+        border-top:10px solid magenta;
+        animation: x 2s linear infinite;
+       }
+
+       @keyframes x 
+       {
+        from{transform: rotate(0deg);}
+        to{transform: rotate(360deg);}
+       }
+
+    
+    </style>
+</head>
+<body>
+
+    <div class="x">
+        <div class="y">
+            <div class="z"></div>
+        </div>
+
+    </div>
+
+
+    
+</body>
+</html>

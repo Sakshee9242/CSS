@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .row 
+        {
+            background: lightblue;
+            display: flex;
+           
+            padding: 25px;
+        }
+        .col1 
+        {
+            background: gray;
+            width: 50%;
+        }
+        .col2 
+        {
+            background: green;
+            width: 50%;
+        }
+
+        @media(max-width:1000px)
+        {
+            .row{ 
+                   background: pink;
+                   border:30px solid;
+                
+                }
+        }
+
+        @media(max-width:400px)
+        {
+            .row{ 
+                   background: linear-gradient(red,blue);
+                   border:30px solid pink;
+                   flex-direction: column;
+                
+                }
+
+                .col1,.col2 
+                {
+                    width: 100%;
+                }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="row">
+        <div class="col1">Part 1</div>
+        <div class="col2">Part 1</div>
+    </div>
+    
+</body>
+</html>

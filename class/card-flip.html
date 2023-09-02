@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main
+        {
+            height: 350px;
+            width: 200px;
+            /* background: gray; */
+           
+            margin: 100px auto;
+            position: relative;
+           
+            
+        }
+
+        .front
+        {
+            height: 350px;
+            width: 200px;
+            background: lightblue;
+            position: absolute;
+            top:0;
+            left:0;
+            transform: rotateY(180deg);
+            backface-visibility: hidden;
+            transition: 1s;
+        }
+
+        .back
+        {
+            height: 350px;
+            width: 200px;
+            background: lightcoral;
+            position: absolute;
+            top:0;
+            left:0;
+            transform: rotateY(0deg);
+            backface-visibility: hidden;
+            transition: 1s;
+        
+        }
+
+        .main:hover .front 
+        {
+            transform: rotateY(0deg);
+        }
+
+        .main:hover .back 
+        {
+            transform: rotateY(180deg);
+        }
+
+
+    </style>
+</head>
+<body>
+
+   <div class="main">
+    <div class="front">
+        <img src="http://www.shoppingforfun.in/images/b1.jpg" alt="" height="100%" width="100%">
+    </div>
+    <div class="back">
+        <img src="http://www.shoppingforfun.in/images/b1.jpg" alt="" height="100%" width="100%">
+    </div>
+   </div>
+    
+</body>
+</html>

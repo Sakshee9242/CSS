@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body * 
+{
+    border: 2px solid;
+}
+.header 
+{
+    background: lightblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.header ul li 
+{
+    display: inline;
+    margin-right: 65px;
+}
+
+/* .header .logo
+{
+   width: 30%;
+   background: lightgreen;
+}
+
+.header .nav
+{
+    width: 70%;
+    background: cornflowerblue;
+} */
+
+.slider 
+{
+    
+    background: url('../images/banner3.jpg');
+   
+    text-align: center;
+    padding: 35px;
+    /* line-height: 30px; */
+    font-size: 45px;
+}
+.slider p 
+{
+    padding: 20px 0;
+}

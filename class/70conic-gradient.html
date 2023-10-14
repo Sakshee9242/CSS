@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .x 
+        {
+            height: 100px;
+            width: 100px;
+            background: conic-gradient(red 0deg,yellow,green);
+            border: 5px solid;
+            margin: 20px;
+            float: left;
+            border-radius: 50%;
+        
+        }
+
+
+        .y
+        {
+          
+            background: conic-gradient(from 45deg,red 0deg,yellow,green);
+          
+        
+        }
+
+        .z 
+        {
+            background: conic-gradient(at 30% 30%,red,yellow,green);
+        }
+
+        .p 
+        {
+            background: conic-gradient(red,yellow,blue,green,red);
+        }
+
+        .q
+        {
+            /* border-radius: 0; */
+            background: conic-gradient(red 0deg,red 90deg,blue 90deg,blue 180deg,green 180deg, green 270deg,yellow 270deg,yellow 360deg);
+        }
+
+        .r 
+        {
+            background:repeating-conic-gradient(red 0deg,red 20deg,transparent 20deg,transparent 30deg);
+
+            background-color: lightblue;
+
+            /* animation: moveMe 1s forwards; */
+
+            /* animation: moveMe 1s 3 reverse; */
+            /* animation: moveMe 1s  backwards; */
+
+            animation: moveMe 4s linear infinite alternate-reverse;
+        
+            /* background-position: 20px 40px; */
+        }
+
+
+        @keyframes moveMe 
+        {
+            from{transform: translateX(0px) rotate(0) scale(1);}
+            to{transform: translateX(500px) rotate(360deg) scale(0);}
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <div class="x"></div>
+    <div class="x y"></div>
+    <div class="x z"></div>
+    <div class="x p"></div>
+    <div class="x q"></div> -->
+    <div class="x r"></div>
+    
+
+    
+</body>
+</html>

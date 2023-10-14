@@ -1,0 +1,8 @@
+@media(max-width:500px)
+{
+    .header 
+    {
+        flex-direction: column;
+    }
+    .header ul li {display: block;}
+}

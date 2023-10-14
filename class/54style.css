@@ -1,0 +1,26 @@
+body *
+{
+    border:2px solid;
+  
+}
+.header,.content,.footer
+{
+    display: flex;
+}
+.col1
+{
+    width: 20%;
+}
+.col2
+{
+    width: 80%;
+}
+.colx 
+{
+    width: 25%;
+}
+
+.x 
+{
+    width: 33.33%;
+}

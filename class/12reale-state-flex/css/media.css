@@ -1,0 +1,9 @@
+@media(max-width:500px)
+{
+    .info,.nav,.x{flex-direction: column;line-height: 30px;}
+    span{display: block;}
+    
+    .nav li {display: block;}
+    .rent-sell {position: static;}
+    
+}

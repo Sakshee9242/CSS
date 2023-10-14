@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    CSS : Cascading Stylesheet 
+
+    Types: 
+
+    1. Inline CSS
+
+    <startTag style="property:value;property:value"></endTag>
+
+        <p style="color:red">PARA</p>
+
+    2. Internal CSS 
+
+    Inside HEAD tag 
+
+    using style tag
+
+    <head>
+        <style>
+            tagName/Element Selector
+            {
+                property:value;
+                property:value;
+            }
+
+            p,h1,div,b (group selector)
+        {
+            color:red;
+        }
+
+
+        .className
+        {
+            property:value;
+             property:value;
+        }
+
+        #idName
+        {
+            property:value;
+                property:value;
+        }
+
+
+
+        </style>
+    </head>
+    3. External CSS
+
+    ==> create a file and save it as anyName.css
+
+    call that css into your html page using link tag inside head tag 
+
+    <head>
+        <link rel="stylesheet" href="path/filename.type">
+    </head>
+
+
+</body>
+</html>

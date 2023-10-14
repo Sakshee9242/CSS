@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .row 
+        {
+            /* height: 200px; */
+            background: gray;
+            gap: 20px;
+            display: flex;
+            padding: 45px;
+        }
+        .col1 
+        {
+            height: 200px;
+            background: lightblue;
+            width: 50%;
+            margin: 20px;
+        }
+
+        .col2
+        {
+            height: 200px;
+            background: lightcoral;
+            width: 50%;
+            display: flex;
+            gap: 20px;
+        }
+        .c 
+        {
+            width: 25%;
+            height: 200px;
+            border: 3px solid;
+        }
+
+        .p 
+        {
+            border: 3px solid;
+            height: 50px;
+        }
+        .xyz 
+        {
+            display: flex;
+        }
+
+        .x 
+        {
+            width: 33.33%;
+            border: 3px solid;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="row">
+        <div class="col1">
+            <div class="p">part 1</div>
+            <div class="p">part 2</div>
+
+            <div class="p xyz">
+                <div class="x">part 11</div>
+                <div class="x">part 12</div>
+                <div class="x">part 13</div>
+            </div>
+
+            <div class="p">part 4</div>
+        </div>
+
+        <div class="col2">
+            <div class="c">C1</div>
+            <div class="c">C2</div>
+            <div class="c">C3</div>
+            <div class="c">C4</div>
+        </div>
+    </div>
+
+</body>
+</html>

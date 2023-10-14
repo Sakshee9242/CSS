@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header 
+        {
+            height: 50px;
+            background:#000;
+            display: flex;
+            text-align: center;
+            line-height: 50px;
+            color:#fff;
+        }
+        .header i 
+        {
+            color: #2fdab8;
+        }
+
+        .header .blank1
+        {
+            height: 50px;
+            width: 16.66%;
+            background:transparent;
+        }
+
+        .header .signIn
+        {
+            height: 50px;
+            width: 16.66%;
+            background:transparent;
+            border-right: 2px solid #fff;
+        }
+
+        .header .signUp
+        {
+            height: 50px;
+            width: 16.66%;
+            background:transparent;
+            border-right: 2px solid #fff;
+        }
+
+        .header .call
+        {
+            height: 50px;
+            width: 16.66%;
+            background:transparent;
+            border-right: 2px solid #fff;
+        }
+
+        .header .info
+        {
+            height: 50px;
+            width: 16.66%;
+            background:transparent;
+            border-right: 2px solid #fff;
+        }
+
+        .header .blank2
+        {
+            height: 50px;
+            width: 16.66%;
+            background:transparent;
+        }
+
+        .header1 
+        {
+            height: 50px;
+            background: lightgreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            word-spacing: 150px;
+        }
+        .header1 li 
+        {
+            display: inline;
+            border-right: 2px solid;
+            padding: 20px 40px;
+        }
+      .subheader 
+      {
+        /* height: 150px; */
+        background: gray;
+        display: flex;
+        justify-content: center;
+        padding: 50px 0;
+        
+      }
+      .subheader .x 
+      {
+        /* border: 2px solid; */
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      .subheader .search
+      {
+      
+        width: 33.33%;
+        /* background: lightblue; */
+       
+      }
+
+      .subheader .search input 
+      {
+        height: 40px;
+        width: 70%;
+        border: 1px solid lightgray;
+        color: gray;
+        font-size: 18px;
+        padding-left: 20px;
+      }
+
+      .subheader .search input:focus 
+      {
+        outline: none;
+      }
+
+      .subheader .search button
+      {
+        background: #2fdab8;
+        height: 42px;
+        width: 45px;
+        border: none;
+      }
+      .subheader .search i 
+      {
+        color: #fff;
+        font-size: 20px;
+      }
+
+      .subheader .logo
+      {
+        
+        width: 33.33%;
+        /* background: lightcoral; */
+        font-size: 45px;
+        font-weight: bold;
+      }
+
+      .subheader .logo span 
+      {
+        background: #000;
+        color:#fff;
+        padding: 12px 14px;
+      }
+
+      .subheader .icons
+      {
+       
+        width: 33.33%;
+        /* background: lightblue; */
+      }
+
+      a 
+        {
+            height: 60px;
+            width: 60px;
+            background: lightcoral;
+            display: block;
+            color:#fff;
+            position: relative;
+            transition: .5s;
+            transform-style: preserve-3d;
+
+        }
+        .f 
+        {
+            height: 60px;
+            width: 60px;
+            background: blue;
+            position: absolute;
+            top:0;
+            left:0;
+            backface-visibility: hidden;
+            transform: rotateX(0deg) translateZ(30px);
+        }
+        .b 
+        {
+            height: 60px;
+            width: 60px;
+            background: gray;
+            position: absolute;
+            top:0;
+            left:0;
+            backface-visibility: hidden;
+            transform: rotateX(90deg) translateZ(30px);
+        }
+
+        a:hover 
+        {
+            transform: rotateX(-90deg);
+        }
+
+        .icons a 
+        {
+            margin: 0 20px;
+        }
+     

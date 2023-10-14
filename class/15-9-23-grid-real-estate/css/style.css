@@ -1,0 +1,48 @@
+*{box-sizing: border-box;}
+
+.properties 
+{
+    /* background: lightskyblue; */
+    text-align: center;
+ 
+}
+.title 
+{
+    /* background: gray; */
+}
+
+.info 
+{
+    /* background: lightcoral; */
+    width: 530px;
+    margin: auto;
+}
+
+li 
+{
+    /* background: darkcyan; */
+    display: inline;
+    
+}
+img
+{
+    height: 100px;
+    width: 50%;
+    object-fit: contain;
+}
+.property-list 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    /* background: gray; */
+    width: 80%;
+    margin: auto;
+}
+
+.list 
+{
+    /* border: 2px solid;    */
+   
+    padding: 20px;
+}

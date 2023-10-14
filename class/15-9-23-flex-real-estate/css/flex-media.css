@@ -1,0 +1,20 @@
+@media(max-width:1100px)
+{
+    .info,.list{width: 25%;}  
+}
+
+@media(max-width:900px)
+{
+    .info,.list{width: 50%;}  
+}
+
+@media(max-width:700px)
+{
+    .info,.list{width: 33.33%;}  
+}
+
+@media(max-width:500px)
+{
+    .info,.list{width: 100%;}  
+}
+

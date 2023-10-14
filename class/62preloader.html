@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+
+        }
+
+        .main * 
+        {
+            border-radius: 50%;
+        }
+        .main 
+        {
+            height: 200px;
+            width: 200px;
+            /* background-color: gray; */
+            margin: 100px auto;
+            position: relative;
+           
+        }
+
+        .x 
+        {
+            height: inherit;
+            width: inherit;
+            background: lightblue;
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+
+            border: 10px solid ;
+            border-top: 10px solid lightsalmon;
+
+            animation: preloader 2s linear infinite;
+
+          
+        }
+
+        .y 
+        {
+            height: 100px;
+            width: 100px;
+            background: cornflowerblue;
+            position: absolute;
+            top:50%;
+            left:50%;
+
+            transform: translate(-50%,-50%);
+
+            
+
+            border: 10px solid ;
+            border-top: 10px solid lightsalmon;
+
+            animation: preloader1 2s linear infinite;
+        }
+
+
+        .z
+        {
+            height: 50px;
+            width: 50px;
+            background: darkgoldenrod;
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            border: 10px solid ;
+            border-top: 10px solid lightsalmon;
+            animation: preloader 2s linear infinite;
+        }
+
+
+
+        .main1 
+        {
+            background: darkcyan;
+            height: 200px;
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .a
+        {
+            height: 40px;
+            width: 40px;
+            background: gray;
+            position: absolute;
+            top:0;
+            left:0;
+        }
+        .b 
+        {
+            height: 70px;
+            width: 70px;
+            background: rgb(118, 213, 16);
+        }
+
+        .c 
+        {
+            height: 50px;
+            width: 50px;
+            background: rgb(46, 7, 7);
+        }
+
+
+        @keyframes preloader 
+        {
+            from{transform:translate(-50%,-50%) rotate(0deg);}
+            to{transform:translate(-50%,-50%) rotate(360deg);}
+        }
+
+        @keyframes preloader1 
+        {
+            from{transform:translate(-50%,-50%) rotate(360deg);}
+            to{transform:translate(-50%,-50%) rotate(0deg);}
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="main">
+        <div class="x"></div>
+        <div class="y"></div>
+        <div class="z"></div>
+    </div>
+
+    <div class="main1">
+        <div class="a">A</div>
+        <div class="b">B</div>
+        <div class="c">C</div>
+    </div>
+</body>
+</html>

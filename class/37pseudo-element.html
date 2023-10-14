@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::first-letter
+        {
+            color:red;
+        }
+
+        p::first-line 
+        {
+            background: lightgreen;
+        }
+        h2 {
+            font-size: 50px;
+        }
+
+        h2::before 
+        {
+            content: "Hello ";
+        }
+        h2::after
+        {
+            content: " Pata Nai...!";
+        }
+        h2:hover 
+        {
+            color:red;
+        }
+
+        h4 
+        {
+            font-size: 50px;
+        }
+        h4::after 
+        {
+            content: "\26F2";
+        }
+        h4::before 
+        {
+            content: url(https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg);
+           
+        }
+        
+        ::selection 
+        {
+            color:#fff;
+            background: #000;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <!-- tagname::pseudo-elementNAme -->
+    
+    <h4>
+        HE&nbsp;&nbsp;&nbsp;LLo
+    </h4>
+
+    <h2>Dharmesh</h2>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem totam deleniti officia repudiandae quae sed? Atque, facilis rerum saepe repellat, inventore recusandae cum sint rem, iure tempore dicta quo enim!
+    </p>
+
+    <h1>Hello</h1>
+    <h1>Hello</h1>
+    <h1>Hello</h1>
+    <h1>Hello</h1>
+</body>
+</html>

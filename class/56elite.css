@@ -1,0 +1,80 @@
+body *{
+    border:2px solid;
+    box-sizing: border-box;
+}
+ul 
+{
+    border: 3px solid red;
+    /* display: flex; */
+    text-align: center;
+   
+}
+li 
+{
+    display: inline;
+    margin-right: 30px;
+}
+.subheader 
+{
+    display: flex;
+    text-align: center;
+}
+.x 
+{
+    width: 33.33%;
+}
+.y 
+{
+    margin-left: 50px;
+}
+
+.slider 
+{
+    height: 350px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.new-Arrivals 
+{
+    display: flex;
+    padding: 45px;
+    gap: 20px;
+}
+ .left,.right 
+{
+    height: 300px;
+    width: 50%;
+    /* margin: 20px; */
+}
+
+.new-Arrivals1 
+{
+    display: flex;
+    
+   
+}
+
+.right
+{
+    padding-top: 45px;
+}
+
+.offer 
+{
+    height: 200px;
+    width: 90%;
+}
+
+.icons 
+{
+    display: flex;
+    text-align: center;
+}
+
+.i 
+{
+    width: 33.33%;
+}

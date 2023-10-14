@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .ex1 
+        {
+            background: url(http://www.shoppingforfun.in/images/bottom2.jpg);
+            padding: 35px;
+            border: 10px solid rgba(256,255,255,.23);
+            background-origin: border-box;
+        }
+
+        .ex2 
+        {
+            background: url(http://www.shoppingforfun.in/images/bottom2.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            padding: 35px;
+            border: 10px solid rgba(0,0,0,.23);
+            background-origin: padding-box;
+        }
+
+        .ex3
+        {
+            background: url(http://www.shoppingforfun.in/images/bottom2.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            padding: 35px;
+            border: 10px solid rgba(0,0,0,.23);
+            background-origin: content-box;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>background-origin:border-box</h2>
+
+    <div class="ex1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, recusandae accusamus vitae minus similique, eligendi dicta numquam nam odit quasi dolorem nostrum, accusantium harum repudiandae et? Fuga quasi minus cumque.
+    </div>
+    
+    <h2>background-origin:padding-box</h2>
+
+    <div class="ex2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, recusandae accusamus vitae minus similique, eligendi dicta numquam nam odit quasi dolorem nostrum, accusantium harum repudiandae et? Fuga quasi minus cumque.
+    </div>
+
+
+    <h2>background-origin:content-box</h2>
+
+    <div class="ex3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, recusandae accusamus vitae minus similique, eligendi dicta numquam nam odit quasi dolorem nostrum, accusantium harum repudiandae et? Fuga quasi minus cumque.
+    </div>
+</body>
+</html>

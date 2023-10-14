@@ -1,0 +1,47 @@
+*{box-sizing: border-box;}
+
+.properties 
+{
+    /* background: lightskyblue; */
+    text-align: center;
+ 
+}
+.title 
+{
+    /* background: gray; */
+}
+
+.info 
+{
+    /* background: lightcoral; */
+    width: 530px;
+    margin: auto;
+}
+
+li 
+{
+    /* background: darkcyan; */
+    display: inline;
+    
+}
+img
+{
+    height: 100px;
+    width: 50%;
+    object-fit: contain;
+}
+.property-list 
+{
+    display: flex;
+    flex-wrap: wrap;
+    /* background: gray; */
+    width: 80%;
+    margin: auto;
+}
+
+.list 
+{
+    /* border: 2px solid;    */
+    width: 33.33%;
+    padding: 20px;
+}
